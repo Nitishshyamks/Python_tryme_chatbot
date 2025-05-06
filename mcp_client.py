@@ -8,7 +8,7 @@ from servers.style_checker import check_style
 from servers.doc_searcher import search_docs
 
 # 🔑 Replace this with your actual Groq API key
-GROQ_API_KEY = "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"
+GROQ_API_KEY = API_KEY
 
 def build_context_blocks(code_or_prompt: str):
     return [
